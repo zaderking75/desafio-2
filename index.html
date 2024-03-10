@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <div class="centrado">
+            <h3>Puedes llevar hasta 10 stickers en total</h3>
+        </div>
+        <div class="img">
+            <div>
+                <img class="img1"  src="./assets/img/1868772.512.webp" alt="" onclick="toggle(this)">
+                <h2 class="centrado">Michi eñojao </h2>
+            </div>
+            <div>
+                <img class="img1"  src="./assets/img/2384129.512.webp" alt="" onclick="toggle(this)">
+                <h2 class="centrado">Michi pensativo </h2>
+            </div>
+            <div>
+                <img class="img1"  src="./assets/img/images.jpg" alt="" onclick="toggle(this)">
+                <h2 class="centrado">Michi tite </h2>
+            </div>
+        </div>
+        <div class="separacion">
+            <input class="centrado" type="text" id="uno"  placeholder="coloque la cantidad">
+            <input class="centrado" type="text" id="dos" placeholder="coloque la cantidad">
+            <input class="centrado" type="text" id="tres" placeholder="coloque la cantidad">
+        </div>
+        <div class="centrado">
+            <button onclick="totaldelasuma()">verificar</button>
+        </div>
+        <div class="centrado">
+            <p>Cantidad:</p>
+            <p id="total"></p>
+        </div>
+        <div class="centrado">
+            <p id="mensaje"></p>
+        </div>
+    </div>
+    <hr>
+    <div class="centrado">
+        <div class="borde">
+            <div class="centrado">
+                <h4>Ingresa el password</h4>
+            </div>
+            <div class="centrado">
+                <select name="" id="codigo1">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                </select>
+                <select name="" id="codigo2">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                </select>
+                <select name="" id="codigo3">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                </select>
+            </div>
+            <div class="cen">
+                <button onclick="verificarContrasena()">Verificar</button>
+            </div>
+            <div class="centrado">
+                <p id="mensaje2"></p>
+            </div>
+            <div class="centrado">
+                <p id="mensaje3"></p>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./assets/js/script.js"></script>
+</html>
